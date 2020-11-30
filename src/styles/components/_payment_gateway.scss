@@ -1,0 +1,82 @@
+.payment-gateway {
+    display: flex;
+    margin-top: 4rem;
+
+    &__details {
+        flex-basis: 70%;
+        flex-grow: 1;
+
+        &__info {
+            width: 30rem;
+            margin: auto;
+
+            &--card-num {
+                input {
+                    height: 4rem;
+                    width: 100%;
+                    padding: 0.5rem;
+                    outline: none;
+                    border: 1px solid #d9d9d9;
+                }
+                margin-bottom: 10px;
+            }
+
+            
+            &--card-exp {
+                display: flex;
+                margin-bottom: 1rem;
+                .date {
+                    width: 70%;
+                    height: 4rem;
+                    padding: 0.5rem;
+                    outline: none;
+                    border: 1px solid #d9d9d9;  
+                    margin-right: 0.5rem;  
+                }
+
+                .cvv {
+                    width: 30%;
+                    padding: 0.5rem;
+                    border: 1px solid #d9d9d9;
+                    outline: none;
+                }
+            }
+
+            &--card-name {
+                margin-bottom: 2rem;
+                input {
+                    width: 100%;
+                    height: 4rem;
+                    padding: 0.5rem;
+                    outline: none;
+                    border: 1px solid #d9d9d9;
+                }
+            }
+
+
+        }
+
+        &__btn {
+            width: 30rem;
+            padding: 1rem;
+            margin: auto;
+            background-color: orange;
+            font-size: 1.4rem;
+            color: $color-white;
+            border-radius: 0.3rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+
+            &:hover {
+                transform: translateY(-0.2rem);
+                box-shadow: 0 0.2rem 1rem rgba($color-black,0.2);
+            }
+
+            &--green {
+                background-color: green;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

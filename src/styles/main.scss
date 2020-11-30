@@ -1,0 +1,11 @@
+@import "./abstracts/variables";
+
+@import "./base/base";
+@import "./base/animations";
+
+@import "./components/navbar";
+@import "./components/app";
+@import "./components/recipe_list";
+@import "./components/food_item_card";
+@import "./components/payment_gateway";
+@import "./components//filter";

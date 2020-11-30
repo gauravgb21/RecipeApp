@@ -1,0 +1,19 @@
+.filter-cont__main {
+    position: absolute;
+    right: 0;
+    width: 40rem;
+    height: 100vh;
+    background-color: $color-white;
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+    animation: slide-down 0.4s;
+}
+
+.filter-cont-bg {
+    position:fixed;
+    top:0;
+    right: 0;
+    z-index: 1001;
+    left: 0;
+    bottom: 0;
+    background-color: rgba($color-black, 0.2);
+}
